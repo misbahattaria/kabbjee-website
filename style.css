@@ -1,0 +1,207 @@
+.top-design {
+    display: flex;
+    background-color: #fff5ef;
+}
+
+.box {
+    width: 18px;
+    height: 16px;
+    border-radius: 0 0 20px 20px;
+    box-sizing: border-box;
+
+}
+
+.red {
+    background-color: red;
+    border: 1px solid red;
+
+}
+
+.white {
+    background-color: white;
+    border: 1px solid #ffd9c7;
+}
+
+.header {
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    margin-top: 35px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 30px;
+    height: 70px;
+    padding: 8px 20px;
+    margin-top: 55px;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding:1px 9px;
+    white-space: nowrap;
+    height: 50px;
+}
+
+.left i {
+    font-size: 30px;
+    color: red;
+}
+.left .fa-chevron-down{
+    font-size: 10px;
+    color: red;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+}
+.contact-box{
+    display: inline-block;
+    white-space: nowrap;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.fa-mobile-screen-button {
+    background-color: #ffd1d1;
+    color: #e4002b;
+    font-size: 20px;
+     padding: 10px;
+    mix-blend-mode: multiply;
+    border-radius: 13px;
+}
+.logo img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+    height: 140px;
+    margin-top: -40px;
+    
+    
+}
+.complaint-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(192, 22, 22);    
+    border-radius: 10px;
+    padding: 4px 9px;
+    background-color: white;
+     
+}
+.complaint-text{
+    font-size: 18px;
+    margin: 0;
+    padding: 3px 4px;
+}
+.small-text{
+    font-size: 10px;
+    margin: 0;
+    padding: 1px 2px;
+}
+.fa-bars-staggered .manu-icon{
+    background-color: #ffeaea;
+    color: #e4002b;
+    font-size: 15px;
+}
+.line{
+    width: 1px;
+    height: 40px;
+    background-color: #ccc;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+
+.right img {
+    width: 45px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+.fa-bars-staggered{
+    background-color: #ffd1d1;
+    color: #e4003b;
+    font-size:25px;
+}
+/* HERO SECTION */
+.kabbjee-banner{
+    width: 100%;
+    height: 350px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+ /* categories */
+ .item{
+      display: flex;
+      gap: 20px;
+     justify-content: center;
+    }
+    .item-1{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: center;
+    }
+
+   .item-1 img{
+    width: 70px;
+    height: 70px;
+    border-radius:20px;
+    margin-top: 30px;
+    object-fit: cover;
+   } 
+.item-1 p{
+    color:#6d0a0a;
+    font-size:20px;
+    margin-top: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+/* SEARCH BAR */
+.search-box{
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border: 1px solid gray;
+    height: 50px;
+    border-radius:50px;
+    margin: 30px auto;
+    padding: 12px 10px;
+}
+.search-box button{
+            width: 45px;
+            height: 45px;
+            background-color:red;
+            border-radius: 50%;
+            border: none;
+            
+            
+}
+.search-box p{
+    border: none;
+    font-size: 15px;
+}
+.search-box .fa-magnifying-glass{
+    font-size: 20px;
+    color: white; 
+}
+.search-box .fa-arrow-right{
+    font-size:20px ;
+    color: white;
+}
